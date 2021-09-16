@@ -1,0 +1,43 @@
+{
+    "name": "cloudgrayau/mapbox",
+    "description": "Create beautiful maps using Mapbox",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "mapbox",
+        "maps"
+    ],
+    "support": {
+        "docs": "https://github.com/cloudgrayau/mapbox/blob/main/README.md",
+        "issues": "https://github.com/cloudgrayau/mapbox/issues"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cloud Gray Pty Ltd",
+            "homepage": "https://cloudgray.com.au/"
+        }
+    ],
+    "require": {
+      "craftcms/cms": "^3.6.0",
+      "guzzlehttp/guzzle": "^7.0",
+    },
+    "autoload": {
+        "psr-4": {
+          "cloudgrayau\\mapbox\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Mapbox",
+        "handle": "mapbox",
+        "developer": "Cloud Gray Pty Ltd",
+        "developerUrl": "https://cloudgray.com.au/",
+        "documentationUrl": "https://github.com/cloudgrayau/mapbox/blob/main/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/cloudgrayau/mapbox/main/CHANGELOG.md",
+        "class": "cloudgrayau\\mapbox\\Mapbox"
+    }
+}
